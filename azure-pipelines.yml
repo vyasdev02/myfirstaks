@@ -37,4 +37,8 @@ stages:
 - stage: Prod
   jobs:
     - job: DeploytoProd
+- stage: GithubTrigger
+  jobs:
+    - job: TriggeringGitHubTrigger
+
 
