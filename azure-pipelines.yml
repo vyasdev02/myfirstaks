@@ -29,6 +29,12 @@ stages:
           terraformVersion: 'latest'
      
 - stage: dev
+  jobs:
+    - job: DeploytoDev
 - stage: QA
+  jobs:
+    - job: DeploytoQA
 - stage: Prod
+  jobs:
+    - job: DeploytoProd
 
