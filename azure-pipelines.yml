@@ -28,6 +28,6 @@ stages:
         inputs:
           terraformVersion: 'latest'
      
-- stage: Validation is done now moving to dev
-- stage: Move with QA
-- stage: Move with Prod
+- stage: dev
+- stage: QA
+- stage: Prod
